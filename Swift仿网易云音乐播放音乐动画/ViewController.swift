@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.whiteColor()
-        let xt = XTActivityView.init(frame: CGRectMake(10, 30, 40, 15))
+        let xt = XTActivityView.init(frame: CGRectMake(110, 130, 40, 15))
         // 个数
         xt.numberOfRect = 4;
         // 颜色
@@ -22,8 +22,10 @@ class ViewController: UIViewController {
         // 间距
         xt.space = 2;
         xt.startAnimation()
+//        xt.stopAnimation()
+        
         self.view.addSubview(xt)
-//        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(customView: xt);
+
         
         
     }
