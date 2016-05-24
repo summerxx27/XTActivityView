@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC609E891CF440B1000DCBF1 /* XTActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC609E881CF440B1000DCBF1 /* XTActivityView.swift */; };
+		BC609E8B1CF44B1E000DCBF1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC609E8A1CF44B1E000DCBF1 /* RootViewController.swift */; };
 		BC7DBE481CE2D55100F30C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBE471CE2D55100F30C0D /* AppDelegate.swift */; };
 		BC7DBE4A1CE2D55100F30C0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBE491CE2D55100F30C0D /* ViewController.swift */; };
 		BC7DBE4D1CE2D55100F30C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7DBE4B1CE2D55100F30C0D /* Main.storyboard */; };
@@ -14,7 +16,6 @@
 		BC7DBE521CE2D55100F30C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7DBE501CE2D55100F30C0D /* LaunchScreen.storyboard */; };
 		BC7DBE5D1CE2D55100F30C0D /* Swift____________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBE5C1CE2D55100F30C0D /* Swift____________Tests.swift */; };
 		BC7DBE681CE2D55100F30C0D /* Swift____________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBE671CE2D55100F30C0D /* Swift____________UITests.swift */; };
-		BC7DBE761CE2D58C00F30C0D /* XTActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBE751CE2D58C00F30C0D /* XTActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC609E881CF440B1000DCBF1 /* XTActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTActivityView.swift; sourceTree = "<group>"; };
+		BC609E8A1CF44B1E000DCBF1 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		BC7DBE441CE2D55100F30C0D /* Swift仿网易云音乐播放音乐动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift仿网易云音乐播放音乐动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7DBE471CE2D55100F30C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC7DBE491CE2D55100F30C0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 		BC7DBE631CE2D55100F30C0D /* Swift仿网易云音乐播放音乐动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift仿网易云音乐播放音乐动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7DBE671CE2D55100F30C0D /* Swift____________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____________UITests.swift"; sourceTree = "<group>"; };
 		BC7DBE691CE2D55100F30C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC7DBE751CE2D58C00F30C0D /* XTActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC609E871CF440B1000DCBF1 /* XTActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				BC609E881CF440B1000DCBF1 /* XTActivityView.swift */,
+			);
+			path = XTActivityView;
+			sourceTree = "<group>";
+		};
 		BC7DBE3B1CE2D55100F30C0D = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +109,14 @@
 		BC7DBE461CE2D55100F30C0D /* Swift仿网易云音乐播放音乐动画 */ = {
 			isa = PBXGroup;
 			children = (
+				BC609E871CF440B1000DCBF1 /* XTActivityView */,
 				BC7DBE471CE2D55100F30C0D /* AppDelegate.swift */,
 				BC7DBE491CE2D55100F30C0D /* ViewController.swift */,
+				BC609E8A1CF44B1E000DCBF1 /* RootViewController.swift */,
 				BC7DBE4B1CE2D55100F30C0D /* Main.storyboard */,
 				BC7DBE4E1CE2D55100F30C0D /* Assets.xcassets */,
 				BC7DBE501CE2D55100F30C0D /* LaunchScreen.storyboard */,
 				BC7DBE531CE2D55100F30C0D /* Info.plist */,
-				BC7DBE751CE2D58C00F30C0D /* XTActivityView.swift */,
 			);
 			path = "Swift仿网易云音乐播放音乐动画";
 			sourceTree = "<group>";
@@ -261,7 +272,8 @@
 			files = (
 				BC7DBE4A1CE2D55100F30C0D /* ViewController.swift in Sources */,
 				BC7DBE481CE2D55100F30C0D /* AppDelegate.swift in Sources */,
-				BC7DBE761CE2D58C00F30C0D /* XTActivityView.swift in Sources */,
+				BC609E8B1CF44B1E000DCBF1 /* RootViewController.swift in Sources */,
+				BC609E891CF440B1000DCBF1 /* XTActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +500,7 @@
 				BC7DBE6E1CE2D55100F30C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC7DBE6F1CE2D55100F30C0D /* Build configuration list for PBXNativeTarget "Swift仿网易云音乐播放音乐动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				BC7DBE711CE2D55100F30C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC7DBE721CE2D55100F30C0D /* Build configuration list for PBXNativeTarget "Swift仿网易云音乐播放音乐动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				BC7DBE741CE2D55100F30C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

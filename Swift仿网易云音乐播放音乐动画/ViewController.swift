@@ -14,10 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.whiteColor()
-        let xt = XTActivityView.init(frame: CGRectMake(0, 10, 80, 15))
+        let xt = XTActivityView.init(frame: CGRectMake(10, 30, 40, 15))
+        // 个数
+        xt.numberOfRect = 4;
+        // 颜色
+        xt.rectBackgroundColor = UIColor.orangeColor()
+        // 间距
+        xt.space = 2;
         xt.startAnimation()
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(customView: xt)
-        xt.performSelector(Selector("stopAnimation"), withObject: nil, afterDelay: 5)
+        self.view.addSubview(xt)
+//        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(customView: xt);
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
